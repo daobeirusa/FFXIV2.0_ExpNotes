@@ -123,7 +123,8 @@ function init(){
       $('#rrr').append(
         "<div class='progress'><div class='progress-bar progress-bar-success progress-bar-striped active' role='progressbar' aria-valuenow='"+per+"' aria-valuemin='0' aria-valuemax='100' style='width: "+per+"%'>"+
         ""+per+"% passed</div></div>"
-      )
+      );
+      $('#rrr').append("<div class='row' style='margin-bottom: 20px;'><div class='col-xs-2'></div><div class='col-xs-8' style='background-color:#5B5A5B;height:2px;'></div></div>");
     }
   }
 }
