@@ -1,1 +1,2 @@
-# FFXIV2.0_ExpNotes
+# FFXIV探索笔记实时播报
+实时显示FFXIV 新生篇探索笔记可完成项
