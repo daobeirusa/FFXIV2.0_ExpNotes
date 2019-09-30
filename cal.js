@@ -1,5 +1,8 @@
 function loadPage(){
   init();
+  var div1 = document.getElementById("content");
+  var width = div1.offsetWidth;
+  div1.style.height = width*(584/1900)+"px";
   setInterval("init()",3000);
 }
 
@@ -19,12 +22,12 @@ function getHour(){
 
   var sh , sm;
   if (h<10) {
-    sh = "0 "+h;
+    sh = "0"+h;
   }else {
     sh = h;
   }
   if (m<10) {
-    sm = "0 "+m;
+    sm = "0"+m;
   }else {
     sm = m;
   }
