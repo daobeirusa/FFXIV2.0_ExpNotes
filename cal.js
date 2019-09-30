@@ -157,7 +157,7 @@ function getPerTime(now,start,end){
     if (now>start) {
       rs = (now-start)/all*100;
     }else {
-      rs = (24-start+end-now)/all*100;
+      rs = (all-end+now)/all*100;
     }
   }
   return Math.round(rs);
